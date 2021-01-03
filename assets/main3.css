@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    background: #ecf0f3;
+}
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/*Container for the header*/
+.header{
+    width: 100%;
+    height: 8vh;
+    background-color: #424242;
+    box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
+    transition: 0.3s;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerimagediv{
+    flex: 1 0 0;
+}
+
+#headerlogo{
+    height: 9vh;
+    width: 18vh;
+}
+
+
+.header ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.auxheaderdiv{
+    flex: 1 0 0;
+}
+.header a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.headeroptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2 0 0;
+}
+
+.headeroptions li {
+    font-size: 18px;
+    padding: 5px 5px;
+    white-space: nowrap;
+}
+
+/**/
+.introduction{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.introduction img{
+    width: 100%;
+    height: 100%;
+}
+
+/**/
+
+.container{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    border-radius: 12px;
+    padding: 3%;
+    margin-bottom: 6%;
+    background: #fff;
+    /*-webkit-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);*/
+    box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
+    transition: 0.3s;
+
+}
+/*
+.card:hover{
+    -webkit-box-shadow: inset 10px 10px 24px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 24px -12px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 24px -12px rgba(0,0,0,0.75);
+}*/
+
+.card-columns{
+    column-count: 3;
+}
+
+@media screen and (max-width: 1080px){
+    .card-columns{
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 985px){
+    .card-columns{
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 420px){
+    .card-columns{
+        column-count: 1;
+    }
+}
