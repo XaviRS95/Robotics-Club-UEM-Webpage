@@ -10,7 +10,7 @@
 <div class="header">
     <div class="headerimagediv"><img id ="headerlogo" src="assets/images/logocompleto.png"></div>
     <ul class="headeroptions">
-        <li class="item"><a href="#">QUIENES SOMOS</a></li>
+        <li class="item"><a href="#whoweare-title">QUIENES SOMOS</a></li>
         <li class="item"><a href="#projects-title">PROYECTOS</a></li>
         <li class="item"><a href="#prizes-title">PREMIOS</a></li>
         <li class="item"><a href="#facilities-title">INSTALACIONES</a></li>
@@ -21,11 +21,42 @@
         <img class="socialicons" src="assets/images/twitter.png">
     </div>
 </div>
-<div class="introduction">
-    <img src="assets/images/villa.jpg">
+<div class="slidediv">
+    <div class="slideshow-div">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="slideimagediv fadeimageanimation">
+            <img class="slideimage" src="assets/images/villa.jpg" style="width:100%">
+        </div>
+        <div class="slideimagediv fadeimageanimation">
+            <img class="slideimage" src="assets/images/villa2.jpg" style="width:100%">
+        </div>
+        <div class="slideimagediv fadeimageanimation">
+            <img class="slideimage" src="assets/images/villa3.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="slideprevbtn" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="slidenextbtn" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
 </div>
+
+<div id="whowearediv">
+    <h2 id="whoweare-title">QUIENES SOMOS:</h2><br/>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
 <div class="content-section">
-    <div class="container">
+
+
+
+    <div class="contenedor">
         <h2 id="projects-title">PROYECTOS:</h2>
         <div class="row">
             <div class="col-12">
@@ -109,22 +140,51 @@
             </div>
         </div>
     </div>
-    <div class="container">
+
+    <div class="contenedor">
         <h2 id="facilities-title">INSTALACIONES:</h2><br/><br/>
     </div>
-    <div class="container">
+
+    <div class="contenedor">
         <h2 id="prizes-title">PREMIOS:</h2><br/><br/>
         <h3>-2019-</h3>
         <div class="prize">
             <h4>ASTI Robotics Challenge</h4>
         </div>
     </div>
-    <div class="container">
+
+    <div class="contenedor">
         <h2 id="learning-title">TALLERES:</h2><br/><br/>
     </div>
+
 </div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slideimagediv");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex-1].style.display = "block";
+    }
+</script>
 </html>

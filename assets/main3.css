@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+@import "slider.css";
+
 html{
     scroll-behavior: smooth;
+    font-family: Roboto;
 }
 
 
@@ -19,7 +23,6 @@ body{
     background-color: #424242;
     box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
     transition: 0.3s;
-    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -46,14 +49,15 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-right: 5%;
 }
 
 .socialicons{
     width: 25px;
     height:auto;
-    margin: 5px;
+    margin: 10px;
 }
 
 .header a{
@@ -77,17 +81,31 @@ body{
 }
 
 /**/
-.introduction{
+.slidediv{
     width: 100%;
-    height: 91vh;
-    background-color: transparent;
+    height: 70vh;
+    background-color: red;
 }
 
-.introduction img{
+.slidediv img{
     width: 100%;
-    height: 100%;
 }
 
+#whowearediv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#whowearediv p{
+    max-width: 50%;
+}
 /**/
 
 .content-section{
@@ -97,10 +115,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: static;
 }
 
-.container{
-    width: 100%;
+.contenedor{
+    width: 99%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -151,21 +170,4 @@ body{
 
 .card-columns{
     column-count: 3;
-}
-
-@media screen and (max-width: 1080px){
-    .card-columns{
-        column-count: 3;
-    }
-}
-
-@media screen and (max-width: 985px){
-    .card-columns{
-        column-count: 2;
-    }
-}
-@media screen and (max-width: 420px){
-    .card-columns{
-        column-count: 1;
-    }
 }

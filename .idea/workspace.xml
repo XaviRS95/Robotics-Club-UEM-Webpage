@@ -11,6 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/main3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main3.html" beforeDir="false" afterPath="$PROJECT_DIR$/main3.html" afterDir="false" />
@@ -23,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
       </list>
@@ -74,7 +78,7 @@
       <workItem from="1609376660368" duration="2084000" />
       <workItem from="1609626580754" duration="9007000" />
       <workItem from="1609814108176" duration="2489000" />
-      <workItem from="1609894187696" duration="4197000" />
+      <workItem from="1609894187696" duration="12024000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,51 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-div {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    margin: 0;
+}
+
+.slideimage{
+    width: 100%;
+    height: 70vh;
+}
+
+/* Hide the images by default */
+.slideimagediv {
+    display: none;
+}
+
+/* Next & previous buttons */
+.slideprevbtn, .slidenextbtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slidenextbtn {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideprevbtn:hover, .slidenextbtn:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fadeimageanimation {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
