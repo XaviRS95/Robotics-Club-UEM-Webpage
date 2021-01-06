@@ -11,14 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/3d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/asti.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/nao.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/pepper.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/qbo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/rober.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/robot-ara.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/ship.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/main3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main3.html" beforeDir="false" afterPath="$PROJECT_DIR$/main3.html" afterDir="false" />
@@ -31,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -81,7 +73,8 @@
       <workItem from="1606859995392" duration="11000" />
       <workItem from="1609376660368" duration="2084000" />
       <workItem from="1609626580754" duration="9007000" />
-      <workItem from="1609814108176" duration="1927000" />
+      <workItem from="1609814108176" duration="2489000" />
+      <workItem from="1609894187696" duration="4197000" />
     </task>
     <servers />
   </component>
@@ -98,11 +91,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609635071610">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1609635071610" />
+    <state x="776" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609896682405">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="311" width="424" height="491" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1609896682405" />
   </component>
 </project>
