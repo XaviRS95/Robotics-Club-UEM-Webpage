@@ -11,16 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/workshop-icons/soldering-iron.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/instagram-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/social-icons/instagram-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/social-icons/twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/villa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/introduction-slider/villa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/villa2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/introduction-slider/villa2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/villa3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/introduction-slider/villa3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/main3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slider.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main3.html" beforeDir="false" afterPath="$PROJECT_DIR$/main3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +82,8 @@
       <workItem from="1609906228613" duration="447000" />
       <workItem from="1609969078176" duration="71000" />
       <workItem from="1609971819960" duration="2791000" />
-      <workItem from="1610292234280" duration="1588000" />
+      <workItem from="1610292234280" duration="3802000" />
+      <workItem from="1610476040297" duration="4625000" />
     </task>
     <servers />
   </component>

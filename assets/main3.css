@@ -9,7 +9,7 @@ html{
 
 body{
     margin:0;
-    background: #ecf0f3;
+    background: #fff2e6;
 }
 .card img{
     width: 100%;
@@ -28,7 +28,7 @@ body{
 }
 
 .headerimagediv{
-    flex: 0.5 0 0;
+    flex: 1 0 0;
 }
 
 #headerlogo{
@@ -53,31 +53,30 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex: 3 0 0;
 }
 
 .headeroptions li {
     font-size: 18px;
-    padding: 5px 5px;
+    margin: 10px;
     white-space: nowrap;
 }
 
 .socialdiv{
-    flex: 0.5 0 0;
+    flex: 1 0 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin-right: 5%;
 }
 
 .socialicons{
     width: 25px;
     height:auto;
-    margin: 10px;
+    margin: 5px;
 }
 
 
@@ -95,6 +94,7 @@ body{
 
 
 #whowearediv{
+    background-color: #fff;
     width: 100%;
     height: auto;
     display: flex;
@@ -103,6 +103,9 @@ body{
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 35px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: 0.1s;
 
 }
 
@@ -122,6 +125,7 @@ body{
 }
 
 .contenedor{
+    background-color: #fff;
     width: 1100px;
     height: auto;
     display: flex;
@@ -130,7 +134,7 @@ body{
     justify-content: center;
     padding: 15px;
     margin: 15px;
-    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: 0.3s;
 }
 .card {
@@ -140,7 +144,7 @@ body{
     background: #fff;
     /*-webkit-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);*/
-    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.75);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: 0.3s;
 }
 
@@ -171,7 +175,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 210px;
+    flex-wrap: wrap;
 }
 
 
@@ -180,6 +184,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 15px;
+    max-height: 300px;
 }
 
 .workshop-title{
@@ -192,7 +198,7 @@ body{
 
 .workshop-icons{
     width: 200px;
-    height: auto;
+    height: 200px;
 }
 
 
