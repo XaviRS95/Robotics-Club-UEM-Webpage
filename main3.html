@@ -21,6 +21,7 @@
         <img class="socialicons" src="assets/images/social-icons/twitter.png">
         <img class="socialicons" src="assets/images/social-icons/gmail.png">
     </div>
+    <img id="menuimg" src="assets/images/menu.png">
 </div>
 <div class="slidediv">
     <div class="slideshow-div">
@@ -37,7 +38,7 @@
         </div>
 
         <!-- Next and previous buttons -->
-        <a class="leftslidebtn" style="color: red" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="leftslidebtn" style="color: #ff0000" onclick="plusSlides(-1)">&#10094;</a>
         <a class="rightslidebtn" style="color: red" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
@@ -186,28 +187,5 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("slideimagediv");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-
-        slides[slideIndex-1].style.display = "block";
-    }
-</script>
+<script src="assets/scripts/slider.js"></script>
 </html>
