@@ -13,7 +13,7 @@
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/main3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main3.html" beforeDir="false" afterPath="$PROJECT_DIR$/main3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,7 @@
       <workItem from="1616375199576" duration="52000" />
       <workItem from="1616526384292" duration="4765000" />
       <workItem from="1616531812508" duration="1256000" />
-      <workItem from="1616535848613" duration="8495000" />
+      <workItem from="1616535848613" duration="10712000" />
     </task>
     <servers />
   </component>
@@ -118,10 +118,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616531827838">
+    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616545471837">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2603" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616531827838" />
+    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616545471837" />
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1616289827974" />
     <state x="776" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609896682405">
       <screen x="67" y="27" width="1853" height="1053" />
