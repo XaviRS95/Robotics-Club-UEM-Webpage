@@ -12,13 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/introduction-slider/villa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/introduction-slider/villa2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/introduction-slider/villa3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/iot_lab/iot_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/iotlab_images/iot_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/iot_lab/iot_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/iotlab_images/iot_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/iot_lab/iot_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/iotlab_images/iot_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logocompleto.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logocompleto.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/main3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main3.html" beforeDir="false" afterPath="$PROJECT_DIR$/main3.html" afterDir="false" />
@@ -105,7 +98,7 @@
       <workItem from="1616375199576" duration="52000" />
       <workItem from="1616526384292" duration="4765000" />
       <workItem from="1616531812508" duration="1256000" />
-      <workItem from="1616535848613" duration="6289000" />
+      <workItem from="1616535848613" duration="8495000" />
     </task>
     <servers />
   </component>
