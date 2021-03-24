@@ -10,7 +10,7 @@
 <body>
 <div class="header">
     <div class="headerimagediv"><img id ="headerlogo" src="assets/images/logocompleto.png"></div>
-    <ul class="headeroptions">
+    <ul class="headeroptions" id="nav-menu">
         <li class="item"><a href="#whoweare-title">QUIÉNES SOMOS</a></li>
         <li class="item"><a href="#projects-title">PROYECTOS</a></li>
         <li class="item"><a href="#prizes-title">PREMIOS</a></li>
@@ -18,11 +18,11 @@
         <li class="item"><a href="#learning-title">TALLERES</a></li>
         <li class="item"><a href="#contact-title">CONTACTO</a></li>
     </ul>
-    <div class="menu-icon"><img id="menuimg" src="assets/images/menu.png"></div>
+    <div class="menu-icon"><img id="menuimg" src="assets/images/menu.png" onclick="menuClick()"></div>
 </div>
 
-<div class="slidediv">
-    <img class="slideimage" src="assets/images/introduction.jpg">
+<div class="introduction_div">
+    <img src="assets/images/introduction.jpg">
 </div>
 
 <div id="whowearediv">
@@ -256,4 +256,5 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="assets/scripts/slider.js"></script>
+<script src="assets/scripts/menubutton.js"></script>
 </html>
