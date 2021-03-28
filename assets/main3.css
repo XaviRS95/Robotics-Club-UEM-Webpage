@@ -19,6 +19,7 @@ body{
 
 /*Container for the header*/
 .header{
+    position: sticky;
     width: 100%;
     height: calc(3vh + 2vw);
     background-color: #424242;
@@ -347,8 +348,8 @@ body{
         font-size: 3vh;
         display: block;
     }
-    .headeroptions li:active  .headeroptions{
-        background-color: red;
+    .headeroptions:c   {
+       background-color: red;
     }
     #menuimg{
         display: block;
