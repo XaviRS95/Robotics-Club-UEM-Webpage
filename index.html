@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/main3.css">
-    </head>
+    <link rel="stylesheet" type="text/css" href="assets/index.css">
+</head>
 <body>
 <div class="header">
     <div class="headerimagediv"><img id ="headerlogo" src="assets/images/logocompleto.png"></div>
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
     <ul class="headeroptions" id="nav-menu">
         <li class="item"><a href="#whoweare-title">QUIÉNES SOMOS</a></li>
         <li class="item"><a href="#projects-title">PROYECTOS</a></li>
-        <li class="item"><a href="#prizes-title">PREMIOS</a></li>
         <li class="item"><a href="#facilities-title">INSTALACIONES</a></li>
+        <li class="item"><a href="#prizes-title">PREMIOS</a></li>
         <li class="item"><a href="#learning-title">TALLERES</a></li>
         <li class="item"><a href="#contact-title">CONTACTO</a></li>
     </ul>
-    <div class="menu-icon"><img id="menuimg" src="assets/images/menu.png" onclick="menuClick()"></div>
+    <div class="aux-flex"></div>
 </div>
 
 <div class="introduction_div">
@@ -240,7 +242,7 @@
             </div>
         </div>
     </div>
-        <!--<div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+    <!--<div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
 </div>
 
 <div class="contact-div">
@@ -256,15 +258,4 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="assets/scripts/slider.js"></script>
-<script src="assets/scripts/menubutton.js"></script>
-<script>
-        document.querySelectorAll(".item").forEach(item => {
-            item.addEventListener('click',event => {
-                    if (document.documentElement.clientWidth <= 900) {
-                        console.log('Pressed on 900');
-                        jQuery("#nav-menu").css("display","none");
-                    }
-            })
-        })
-</script>
 </html>
