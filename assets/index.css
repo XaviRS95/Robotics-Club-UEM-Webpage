@@ -18,6 +18,8 @@ body{
     border-radius: 8px;
 }
 
+
+
 /*Container for the header*/
 .header{
     width: 100%;
@@ -84,16 +86,6 @@ body{
 
 
 /**/
-.slidediv{
-    width: 100%;
-    height: 70vh;
-}
-
-.slidediv img{
-    width: 100%;
-    height: 70vh;
-}
-
 .introduction_div{
     display: flex;
     flex-direction: column;
@@ -107,6 +99,11 @@ body{
     width: 100%;
     height: 100%;
 }
+
+.section_title{
+    font-size: calc(1vh + 1vw);
+}
+
 
 #whowearediv{
     background-color: #fff;
@@ -337,11 +334,15 @@ body{
 
     }
     .headeroptions li a{
-        font-size: 3vh;
+        font-size: calc(1vh + 1vw);
         display: block;
     }
     .hamburger, .toggler{
         visibility: visible;
+    }
+
+    .section_title{
+        font-size: calc(2vh + 1vw);
     }
 }
 
@@ -373,6 +374,9 @@ body{
     }
     .headeroptions{
         top: calc(6vh + 4vw);
+    }
+    .section_title{
+        font-size: calc(2vh + 2vw);
     }
 
 }

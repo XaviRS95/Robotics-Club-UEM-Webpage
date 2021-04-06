@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/icon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/hamburger.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hamburger.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/workshop-icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,8 +55,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/workshop-icons" />
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/workshop-icons" />
       <recent name="$PROJECT_DIR$/assets/images/iot_lab" />
       <recent name="$PROJECT_DIR$/assets/images/introduction-slider" />
       <recent name="$PROJECT_DIR$" />
@@ -103,7 +102,9 @@
       <workItem from="1616711704791" duration="6756000" />
       <workItem from="1616724016698" duration="130000" />
       <workItem from="1616967806564" duration="20905000" />
-      <workItem from="1616991193872" duration="150000" />
+      <workItem from="1616991193872" duration="901000" />
+      <workItem from="1617329735345" duration="18000" />
+      <workItem from="1617719583553" duration="1834000" />
     </task>
     <servers />
   </component>

@@ -3,9 +3,19 @@
 /* Slideshow container */
 .slideshow-div {
     width: 100%;
-    height: 70vh;
+    height: auto;
     position: relative;
     margin: 0;
+}
+
+.slidediv{
+    width: 100%;
+    height: auto;
+}
+
+.slidediv img{
+    width: 100%;
+    height: auto;
 }
 
 
