@@ -225,8 +225,25 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 35px;
 }
 
+.prize_image{
+    width: 100%;
+    height: auto;
+}
+.prize_title{
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+.prize_date{
+    font-size: 18px;
+
+}
+.prize_description{
+    font-weight: 300;
+}
 /*Workshop section*/
 .workshops{
     width: 100%;
