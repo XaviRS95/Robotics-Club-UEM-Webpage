@@ -239,6 +239,8 @@ body{
 }
 .prize_date{
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 
 }
 .prize_description{
