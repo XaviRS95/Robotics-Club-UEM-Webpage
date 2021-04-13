@@ -290,11 +290,17 @@ body{
     background-color: #424242;
     color: #eeeeee;
 }
+.contact{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
 
 .socialicons{
     width: 25px;
-    height:auto;
-    margin: 5px;
+    height:25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 
