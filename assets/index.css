@@ -1,7 +1,5 @@
 @import "slider.css";
 @import "hamburger.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -11,7 +9,10 @@ html{
 body{
     margin:0;
     background: #fff2e6;
-    font-family: 'Roboto';
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .card img{
     width: 100%;
@@ -29,7 +30,6 @@ body{
     transition: 0.3s;
     display: flex;
     flex-direction: row;
-    font-weight: 500;
 }
 
 .headeroptions {
@@ -44,6 +44,8 @@ body{
     font-size: 1.4vw;/*18*/
     white-space: nowrap;
     padding: 1.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .headerimagediv{
