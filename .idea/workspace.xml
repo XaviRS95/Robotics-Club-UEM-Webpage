@@ -11,13 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/workshop-icons/3d_print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/workshop-icons/soldering_iron.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/3d-design.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/3d_design.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/workshop-icons/3d_design.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/circuits.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/soldering-iron.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -30,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -115,7 +109,7 @@
       <workItem from="1618062928694" duration="911000" />
       <workItem from="1618323349427" duration="3427000" />
       <workItem from="1618403844595" duration="4287000" />
-      <workItem from="1618409830939" duration="1289000" />
+      <workItem from="1618409830939" duration="9833000" />
     </task>
     <servers />
   </component>
