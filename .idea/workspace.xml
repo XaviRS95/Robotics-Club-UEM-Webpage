@@ -11,7 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/workshop-icons/3d_print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/workshop-icons/soldering_iron.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/3d-design.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/3d_design.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/workshop-icons/3d_design.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/circuits.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/workshop-icons/soldering-iron.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -41,24 +47,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/workshop-icons" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/workshop-icons" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/iot_lab" />
+      <recent name="$PROJECT_DIR$/assets/images/introduction-slider" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/images/social-icons" />
       <recent name="$PROJECT_DIR$/assets/images/introduction-slider" />
       <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/assets/images/workshop-icons" />
-      <recent name="$PROJECT_DIR$/assets/images/iot_lab" />
-      <recent name="$PROJECT_DIR$/assets/images/introduction-slider" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -108,7 +114,8 @@
       <workItem from="1618062869293" duration="36000" />
       <workItem from="1618062928694" duration="911000" />
       <workItem from="1618323349427" duration="3427000" />
-      <workItem from="1618403844595" duration="2461000" />
+      <workItem from="1618403844595" duration="4287000" />
+      <workItem from="1618409830939" duration="1289000" />
     </task>
     <servers />
   </component>
@@ -128,10 +135,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616545471837">
+    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618409875529">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616545471837" />
+    <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618409875529" />
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1616289827974" />
     <state x="776" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609896682405">
       <screen x="67" y="27" width="1853" height="1053" />
