@@ -10,7 +10,6 @@ body{
     margin:0;
     background: #fff2e6;
     font-family: 'Lato', arial, sans-serif;
-    font-weight: 600;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -45,7 +44,7 @@ body{
     white-space: nowrap;
     padding: 1.5vh;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .headerimagediv{
@@ -103,7 +102,10 @@ body{
 }
 
 .section_title{
+    font-family: 'Lato';
     font-size: calc(1vh + 1vw);
+    font-weight: 600;
+
 }
 
 
@@ -124,7 +126,8 @@ body{
 
 #whowearediv p{
     max-width: 70%;
-    font-weight: 300;
+    font-family: 'Lato';
+    font-weight: 400;
 }
 /**/
 
@@ -136,6 +139,7 @@ body{
     align-items: center;
     justify-content: center;
     position: static;
+    font-family: 'Lato';
 }
 
 
@@ -177,11 +181,12 @@ body{
 }
 
 .project .title{
+    font-weight: 500;
     font-size: 20px;
 }
 
 .project .project-description{
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .video-responsive{
@@ -212,13 +217,14 @@ body{
 }
 
 .facility-title{
+    font-weight: 500;
     font-size: 23px;
     margin: 0;
     padding: 0;
 }
 
 .facility-description{
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /*Prizes section*/
@@ -235,18 +241,20 @@ body{
     height: auto;
 }
 .prize_title{
+    font-weight: 500;
     font-size: 23px;
     margin: 0;
     padding: 0;
 }
 .prize_date{
+    font-weight: 500;
     font-size: 18px;
     margin: 0;
     padding: 0;
 
 }
 .prize_description{
-    font-weight: 300;
+    font-weight: 400;
 }
 /*Workshop section*/
 .workshops{
@@ -268,8 +276,8 @@ body{
     max-height: 300px;
 }
 
-.workshop-description{
-    font-weight: 300;
+.workshop-title{
+    font-weight: 500;
 }
 
 .workshop-icons{
@@ -278,24 +286,50 @@ body{
 }
 
 /*Contact section*/
-.contact-div{
+.contact_section{
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    align-content: center;
+    background-color: #424242;
+    color: #eeeeee;
     padding-top: 15px;
     padding-bottom: 25px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: 0.1s;
-    background-color: #424242;
-    color: #eeeeee;
 }
+
+.contact_div{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.social_media_div{
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_form{
+    width: 300px;
+    background-color: red;
+}
+
 .contact{
     width: auto;
     display: flex;
     flex-direction: row;
+}
+
+.contact_element{
+    margin: 0;
+    font-weight: 500;
 }
 
 .socialicons{
