@@ -1,0 +1,118 @@
+#whowearediv {
+    padding: 35px 0 75px 0;
+}
+
+#whowearediv > p{
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 17px;
+}
+
+.header {
+	height: calc(6vh + 2vw);
+	padding: 0 25px;
+}
+
+.grid_container {
+    column-count: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+	width: calc(33% - 40px);
+	padding: 25px;
+	margin: 20px;
+}
+
+.project .project-description {
+    font-weight: 400;
+    max-height: 95px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.facility {
+	max-width: 768px;
+	margin-bottom: 60px;
+}
+
+.prize_title {
+	padding-bottom: 10px;
+}
+
+.prize_date {
+	opacity: 0.6;
+}
+
+.prize_description,
+.facility-description {
+	margin-bottom: 30px;
+	font-size: 17px;
+}
+
+img {
+	border-radius: 3px;
+}
+
+.facility-title {
+	font-size: 35px;
+}
+
+.workshop-icons {
+    width: 125px;
+    height: auto;
+    margin: 30px;
+}
+
+.contenedor {
+	padding: 40px;
+}
+
+.contact_section {
+	margin-top: 80px;
+	padding-bottom: 60px;
+}
+
+.social_media_div {
+	display: flex;
+	flex-direction: inherit;
+}
+
+.contact {
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+#contact-title {
+	margin: 50px 0;
+}
+
+@media (max-width: 768px) {
+	.contenedor {
+		padding: 20px;
+	}
+	.card {
+		width: 100%;
+	}
+	.header {
+		padding: 0 10px;
+	}
+	.header .hamburger {
+		right: 20px
+	}
+	#whowearediv {
+		padding: 30px
+	}
+	.social_media_div {
+		flex-direction: column;
+	}
+	.contact {
+		margin-bottom: 15px;
+	}
+}
