@@ -18,7 +18,7 @@ body{
 /*Container for the header*/
 .header{
     width: 100%;
-    height: calc(3vh + 2vw);
+    height: calc(2vh + 2vw);
     background-color: #424242;
     box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
     transition: 0.3s;
@@ -35,11 +35,15 @@ body{
 }
 
 .headeroptions li {
-    font-size: 1.4vw;/*18*/
+    font-size: 15px;/*18*/
     white-space: nowrap;
     padding: 1.5vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+
+.headeroptions li:hover{
+    background-color: #696969;
 }
 
 .headerimagediv{
@@ -51,8 +55,8 @@ body{
     align-items: center;
 }
 #headerlogo{
-    height: calc(1.7vh + 2vw);
-    width: calc(7vh + 4vw);
+    height: calc(1.4vh + 1.4vw);
+    width: calc(5vh + 3vw);
 }
 
 .header ul{
@@ -97,7 +101,9 @@ body{
 }
 
 .section_title{
+    margin: 0;
     font-family: 'Lato';
+    padding-bottom: 25px;
     font-size: calc(1vh + 1vw);
     font-weight: 600;
 
@@ -105,7 +111,6 @@ body{
 
 
 #whowearediv{
-    background-color: #fff;
     width: 100%;
     height: auto;
     display: flex;
@@ -113,16 +118,19 @@ body{
     align-items: center;
     justify-content: center;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
     margin-bottom: 35px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: 0.1s;
+    background-color: #fff;
+    color: #424242;
 }
 
 #whowearediv p{
-    max-width: 70%;
+    max-width: 1050px;
     font-family: 'Lato';
     font-weight: 400;
+    margin: 5px 0px 0px 0px;
 }
 /**/
 
@@ -135,6 +143,7 @@ body{
     justify-content: center;
     position: static;
     font-family: 'Lato';
+    color: #424242;
 }
 
 .contenedor{
@@ -162,8 +171,8 @@ body{
     display: inline-block;
     overflow: hidden;
     border-radius: 12px;
-    padding: 3%;
-    margin-bottom: 3%;
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 15px;
     background: #fff;
     /*-webkit-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);*/
@@ -181,13 +190,13 @@ body{
 
 .card img{
     width: 100%;
+    max-height: 500px;
     border-radius: 8px;
 }
 
 .project .title{
     font-weight: 500;
     font-size: 20px;
-    margin-top: 5px;
     margin-bottom: 20px;
 }
 
@@ -284,7 +293,6 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, [col-start] 1fr);
-    grid-gap: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -304,8 +312,8 @@ body{
 }
 
 .workshop-icons{
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: auto;
 }
 
 /*Contact section*/
@@ -379,21 +387,15 @@ body{
 }
 
 @media (max-width: 1050px) {
-    .workshops{
-        grid-template-columns: repeat(2, [col-start] 1fr);
+    .header{
+        height: calc(2vh + 2vw);
     }
-    .slidediv{
-        max-height: 55vh;
-    }
-    .slidediv img{
-        max-height: 55vh;
-    }
-    .slideshow-div{
-        max-height: 55vh;
+    .header .hamburger{
+        visibility: visible;
     }
     .headeroptions{
         position: absolute;
-        top: calc(3vh + 2vw);
+        top: calc(2vh + 2vw);
         left: 0;
         display: none;
         flex-direction: column;
@@ -417,19 +419,17 @@ body{
     }
 
     .section_title{
-        font-size: calc(2vh + 1vw);
+        font-size: calc(1.5vh + 1vw);
     }
-}
 
-@media (min-width: 901px){
-    .headeroptions{
-        display: flex;
+    .slidediv{
+        max-height: 55vh;
     }
-    .hamburger, .toggler{
-        visibility: hidden;
+    .slidediv img{
+        max-height: 55vh;
     }
-    .headeroptions li:hover{
-        background-color: #696969;
+    .slideshow-div{
+        max-height: 55vh;
     }
 }
 
@@ -437,6 +437,10 @@ body{
     .prize{
         width: 100%;
     }
+    .workshops{
+        grid-template-columns: repeat(2, [col-start] 1fr);
+    }
+
 }
 
 @media (max-width: 701px) {
@@ -451,7 +455,7 @@ body{
 
 @media (max-width: 600px), (max-height: 470px){
     .header{
-        height: calc(6vh + 4vw);
+        height: calc(3vh + 3vw);
     }
     .slidediv{
         max-height: 40vh;
@@ -463,21 +467,20 @@ body{
         max-height: 40vh;
     }
     #headerlogo{
-        height: calc(4vh + 2vw);
-        width: calc(12vh + 4vw);
+        height: calc(2vh + 2vw);
+        width: calc(8vh + 4vw);
     }
     .headeroptions{
-        top: calc(6vh + 4vw);
+        top: calc(3vh + 3vw);
     }
     .section_title{
-        font-size: calc(2vh + 2vw);
+        font-size: calc(1.5vh + 1.1vw);
     }
     .workshops{
         grid-template-columns: repeat(1, [col-start] 1fr);
     }
-}
-
-
-@media (max-width: 400px){
-
+    .workshop img{
+        width: 150px;
+        height: 150px;
+    }
 }

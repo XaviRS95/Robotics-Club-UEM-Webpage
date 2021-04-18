@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hamburger.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hamburger.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -110,7 +111,9 @@
       <workItem from="1618323349427" duration="3427000" />
       <workItem from="1618403844595" duration="4287000" />
       <workItem from="1618409830939" duration="10746000" />
-      <workItem from="1618485490413" duration="1695000" />
+      <workItem from="1618485490413" duration="1793000" />
+      <workItem from="1618749797475" duration="114000" />
+      <workItem from="1618750442378" duration="5531000" />
     </task>
     <servers />
   </component>
