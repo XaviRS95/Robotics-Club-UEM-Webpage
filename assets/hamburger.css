@@ -70,10 +70,14 @@
     .toggler {
         top: calc(0.8vh + 0.8vw);
         right: calc(1vh + 1vw);
+        height: calc(2vh + 3vw);
+        width: calc(2vh + 2vw);
     }
     .header .hamburger {
         top: calc(0.8vh + 0.8vw);
         right: calc(1vh + 1vw);
+        height: calc(2vh + 3vw);
+        width: calc(2vh + 3vw);
     }
 }
 

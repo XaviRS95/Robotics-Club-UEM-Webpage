@@ -104,7 +104,7 @@ body{
     margin: 0;
     font-family: 'Lato';
     padding-bottom: 25px;
-    font-size: calc(1vh + 1vw);
+    font-size: calc(0.9vh + 0.9vw);
     font-weight: 600;
 
 }
@@ -131,6 +131,7 @@ body{
     font-family: 'Lato';
     font-weight: 400;
     margin: 5px 0px 0px 0px;
+    font-size: 20px;
 }
 /**/
 
@@ -196,11 +197,12 @@ body{
 
 .project .title{
     font-weight: 500;
-    font-size: 20px;
+    font-size: calc(1.0vh + 1.0vw);
     margin-bottom: 20px;
 }
 
-.project .project-description{
+.project-description{
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -234,7 +236,7 @@ body{
 
 .facility-title{
     font-weight: 500;
-    font-size: 23px;
+    font-size: calc(1vh + 1vw);
     margin: 0;
     padding: 0;
 }
@@ -417,9 +419,15 @@ body{
     .hamburger, .toggler{
         visibility: visible;
     }
+    #whowearediv p{
+        font-size: calc(0.9vh + 0.9vw);
+    }
 
     .section_title{
-        font-size: calc(1.5vh + 1vw);
+        font-size: calc(1vh + 1vw);
+    }
+    .project-description{
+        font-size: calc(0.7vh + 0.7vw);
     }
 
     .slidediv{
@@ -430,6 +438,9 @@ body{
     }
     .slideshow-div{
         max-height: 55vh;
+    }
+    .project .title{
+        font-size: calc(1.1vh + 1.1vw);
     }
 }
 
@@ -455,7 +466,7 @@ body{
 
 @media (max-width: 600px), (max-height: 470px){
     .header{
-        height: calc(3vh + 3vw);
+        height: calc(4vh + 4vw);
     }
     .slidediv{
         max-height: 40vh;
@@ -467,14 +478,32 @@ body{
         max-height: 40vh;
     }
     #headerlogo{
-        height: calc(2vh + 2vw);
-        width: calc(8vh + 4vw);
+        height: calc(3vh + 3vw);
+        width: calc(10vh + 5vw);
     }
     .headeroptions{
-        top: calc(3vh + 3vw);
+        top: calc(4vh + 4vw);
+    }
+    #whowearediv p{
+        font-size: calc(0.8vh + 0.8vw);
     }
     .section_title{
-        font-size: calc(1.5vh + 1.1vw);
+        font-size: calc(1vh + 1vw);
+    }
+    .project-description{
+        font-size: calc(1vh + 1vw);
+    }
+    .facility-title{
+        font-size: calc(1.1vh + 1.1vw);
+    }
+    .facility-description{
+        font-size: calc(1vh + 1vw);
+    }
+    .prize_title{
+        font-size: calc(1.1vh + 1.1vw);
+    }
+    .project-description{
+        font-size: calc(1vh + 1vw);
     }
     .workshops{
         grid-template-columns: repeat(1, [col-start] 1fr);
