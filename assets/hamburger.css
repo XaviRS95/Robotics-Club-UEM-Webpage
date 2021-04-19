@@ -3,8 +3,8 @@
     cursor: pointer;
     height: calc(2vh + 1vw);
     width: calc(2vh + 1vw);
-    top: calc(0.2vh + 0.2vw);
-    right: calc(0.2vh + 0.2vw);
+    top: calc(0.6vh + 0.6vw);
+    right: calc(0.6vh + 0.6vw);
     z-index: 2;
     opacity: 0;
 }
@@ -13,8 +13,8 @@
     position: absolute;
     height: calc(2vh + 1vw);
     width: calc(2vh + 1vw);
-    top: calc(0.2vh + 0.2vw);
-    right: calc(0.2vh + 0.2vw);
+    top: calc(0.6vh + 0.6vw);
+    right: calc(0.6vh + 0.6vw);
     z-index: 1;
     display: flex;
     align-items: center;
@@ -63,6 +63,7 @@
     top: 0;
     transform: rotate(90deg);
 }
+
 
 
 /*Portrait mobile devices*/
