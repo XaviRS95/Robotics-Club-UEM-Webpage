@@ -337,24 +337,17 @@ body{
 }
 
 .contact_div{
-    width: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    align-content: center;
+    align-items: flex-start;
 }
 
-.social_media_div{
-    max-width: 700px;
+.social_media{
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.contact_form{
-    width: 300px;
-    background-color: red;
+    margin-left: 15px;
 }
 
 .contact{
@@ -375,6 +368,45 @@ body{
     margin-bottom: 5px;
 }
 
+#contact_form_div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin-left: 15px;
+}
+
+#contact_form_div input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2px;
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 400;
+    color: #424242;
+    font-size: 15px;
+}
+#contact_form_div textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin: 2px;
+    resize: none;
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 400;
+    color: #424242;
+    font-size: 15px;
+}
+
+#contact_form_div button{
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 400;
+    color: #424242;
+    font-size: 15px;
+}
 
 
 /*Media Queries*/
@@ -450,7 +482,7 @@ body{
     }
 
     #whowearediv p{
-        font-size: calc(1.15vh + 1.15vw);
+        font-size: calc(1.05vh + 1.05vw);
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -533,7 +565,7 @@ body{
         top: calc(4vh + 4vw);
     }
     #whowearediv p{
-        font-size: 15px;
+        font-size: calc(1.2vh + 1.2vw);
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -575,5 +607,10 @@ body{
 
     .contact_element{
         font-size: calc(1.2vh + 1.2vw);
+    }
+    .contact_div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }

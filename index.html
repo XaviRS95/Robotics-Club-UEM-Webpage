@@ -286,14 +286,24 @@
 <div class="contact_section">
     <h2 class="section_title" id="contact-title">CONTACTO:</h2>
     <div class="contact_div">
-        <div class="social_media_div">
+        <div class="social_media">
             <div class="contact"><img class="socialicons" src="assets/images/social-icons/instagram-logo.png"><p class="contact_element">@roboticsuem</p></div>
             <div class="contact"><img class="socialicons" src="assets/images/social-icons/twitter.png"><p class="contact_element">@roboticsuem</p></div>
             <div class="contact"><img class="socialicons" src="assets/images/social-icons/gmail.png"><p class="contact_element">clubroboticsuem@gmail.com</p></div>
+        </div>
+        <div id="contact_form_div">
+            <form action="assets/scripts/mail.php" method="post" id="contact_form">
+                <input type="email" id="contactmail" placeholder="Tu correo">
+                <input type="text" id="mailsubject" placeholder="Asunto del mensaje">
+                <textarea id="mailtext" placeholder="Tu mensaje" form="contact_form"></textarea>
+                <button type="submit" id="sendmail">Enviar</button>
+            </form>
         </div>
     </div>
 </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="assets/scripts/slider.js"></script>
+<script src="assets/scripts/sendmailajax.js"></script>
 </html>
