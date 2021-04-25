@@ -16,7 +16,7 @@
 .slidediv img{
     width: 100%;
     height: auto;
-    max-height: 50vh;
+    max-height: 500px;
 }
 
 /* Hide the images by default */

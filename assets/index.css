@@ -35,7 +35,7 @@ body{
 }
 
 .headeroptions li {
-    font-size: 15px;/*18*/
+    font-size: calc(0.7vh + 0.7vw);
     white-space: nowrap;
     padding: 1.5vh;
     font-family: 'Montserrat', sans-serif;
@@ -104,7 +104,7 @@ body{
     margin: 0;
     font-family: 'Lato';
     padding-bottom: 25px;
-    font-size: calc(0.9vh + 0.9vw);
+    font-size: 25px;
     font-weight: 600;
 
 }
@@ -131,7 +131,7 @@ body{
     font-family: 'Lato';
     font-weight: 400;
     margin: 5px 0px 0px 0px;
-    font-size: 18px;
+    font-size: 23px;
 }
 /**/
 
@@ -197,12 +197,12 @@ body{
 
 .project .title{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 
 .project-description{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -242,6 +242,8 @@ body{
 }
 
 .facility-description{
+    margin-block-start: 0.5em;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -282,14 +284,14 @@ body{
 }
 .prize_date{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 21px;
     margin: 0;
     padding: 0;
 
 }
 .prize_description{
+    font-size: 20px;
     font-weight: 400;
-    font-size: 13px;
 }
 /*Workshop section*/
 
@@ -356,6 +358,7 @@ body{
     flex-direction: row;
     margin-left: 15px;
     margin-right: 15px;
+    font-size: 20px;
 }
 
 .contact_element{
@@ -459,14 +462,8 @@ body{
         font-size: calc(0.7vh + 0.7vw);
     }
 
-    .slidediv{
-        max-height: 55vh;
-    }
     .slidediv img{
-        max-height: 55vh;
-    }
-    .slideshow-div{
-        max-height: 55vh;
+        max-height: 50vh;
     }
 
     .grid_container{
@@ -555,15 +552,6 @@ body{
     .header{
         height: calc(4vh + 4vw);
     }
-    .slidediv{
-        max-height: 40vh;
-    }
-    .slidediv img{
-        max-height: 40vh;
-    }
-    .slideshow-div{
-        max-height: 40vh;
-    }
     #headerlogo{
         height: calc(3vh + 3vw);
         width: calc(10vh + 5vw);
@@ -572,34 +560,37 @@ body{
         top: calc(4vh + 4vw);
     }
     #whowearediv p{
-        font-size: calc(1.2vh + 1.2vw);
+        font-size: calc(1.5vh + 1.5vw);
         margin-left: 15px;
         margin-right: 15px;
     }
     .section_title{
-        font-size: calc(1.3vh + 1.3vw);
+        font-size: calc(1.7vh + 1.7vw);
     }
     .project .title{
-        font-size: calc(1.25vh + 1.25vw);
+        font-size: calc(1.6vh + 1.6vw);
         margin-top: 0.5vh ;
     }
     .project-description{
-        font-size: calc(1.15vh + 1.15vw);
+        font-size: calc(1.5vh + 1.5vw);
     }
     .facility-title{
-        font-size: calc(1.2vh + 1.2vw);
+        font-size: calc(1.6vh + 1.6vw);
     }
     .facility-description{
-        font-size: calc(1.05vh + 1.05vw);
+        font-size: calc(1.5vh + 1.5vw);
     }
     .prize_title{
-        font-size: calc(1.2vh + 1.2vw);
+        font-size: calc(1.6vh + 1.6vw);
     }
     .prize_date{
-        font-size: calc(1.1vh + 1.1vw);
+        font-size: calc(1.55vh + 1.55vw);
     }
     .prize_description{
-        font-size: calc(1.05vh + 1.05vw);
+        font-size: calc(1.5vh + 1.5vw);
+    }
+    .slidediv img{
+        max-height: 40vh;
     }
     .workshops{
         grid-template-columns: repeat(1, [col-start] 1fr);
@@ -609,11 +600,11 @@ body{
         height: 125px;
     }
     .workshop-title{
-        font-size: calc(1.2vh + 1.2vw);
+        font-size: calc(1.4vh + 1.4vw);
     }
 
     .contact_element{
-        font-size: calc(1.2vh + 1.2vw);
+        font-size: calc(1.4vh + 1.4vw);
     }
     .contact_div{
         display: flex;
