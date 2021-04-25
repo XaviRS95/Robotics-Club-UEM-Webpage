@@ -12,14 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fablab_images/fablab_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fablab_images/fablab_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fablab_images/fablab_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fablab_images/fablab_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/roboticslab_images/robotics_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/roboticslab_images/robotics_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +116,7 @@
       <workItem from="1618847251883" duration="4741000" />
       <workItem from="1618863867547" duration="2209000" />
       <workItem from="1619188834449" duration="8085000" />
-      <workItem from="1619371614995" duration="3386000" />
+      <workItem from="1619371614995" duration="7678000" />
     </task>
     <servers />
   </component>
