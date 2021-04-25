@@ -1,6 +1,5 @@
 var slideIndex = 1;
 showSlides(slideIndex,'iotimage');
-showSlides(slideIndex,'fablabimage');
 showSlides(slideIndex,'roboticsimage');
 
 

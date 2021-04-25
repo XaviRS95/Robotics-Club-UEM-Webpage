@@ -4,7 +4,6 @@
 .slideshow-div {
     width: 100%;
     height: auto;
-    max-height: 70vh;
     position: relative;
     margin: 0;
 }
@@ -12,13 +11,12 @@
 .slidediv{
     width: 100%;
     height: auto;
-    max-height: 70vh;
 }
 
 .slidediv img{
     width: 100%;
     height: auto;
-    max-height: 70vh;
+    max-height: 50vh;
 }
 
 /* Hide the images by default */

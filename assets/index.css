@@ -317,7 +317,7 @@ body{
 
 .workshop-icons{
     width: 125px;
-    height: auto;
+    height: 125px;
 }
 
 /*Contact section*/
@@ -331,7 +331,7 @@ body{
     color: #eeeeee;
     margin-top: 20px;
     padding-top: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: 0.1s;
 }
@@ -345,7 +345,7 @@ body{
 .social_media{
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin-left: 15px;
 }
@@ -354,6 +354,8 @@ body{
     width: auto;
     display: flex;
     flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .contact_element{
@@ -510,8 +512,8 @@ body{
         font-size: calc(1vh + 1vw);
     }
     .workshop img{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
     .workshop-title{
         font-size: calc(1vh + 1vw);
@@ -540,6 +542,11 @@ body{
     }
     .contenedor{
         width: 100%;
+    }
+    .social_media{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
 }
@@ -583,7 +590,7 @@ body{
         font-size: calc(1.2vh + 1.2vw);
     }
     .facility-description{
-        font-size: calc(1.1vh + 1.1vw);
+        font-size: calc(1.05vh + 1.05vw);
     }
     .prize_title{
         font-size: calc(1.2vh + 1.2vw);
@@ -592,14 +599,14 @@ body{
         font-size: calc(1.1vh + 1.1vw);
     }
     .prize_description{
-        font-size: calc(1.1vh + 1.1vw);
+        font-size: calc(1.05vh + 1.05vw);
     }
     .workshops{
         grid-template-columns: repeat(1, [col-start] 1fr);
     }
     .workshop img{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
     .workshop-title{
         font-size: calc(1.2vh + 1.2vw);
