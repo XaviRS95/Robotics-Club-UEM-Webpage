@@ -14,6 +14,9 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 
+p{
+    text-align: center;
+}
 
 /*Container for the header*/
 .header{
@@ -577,13 +580,13 @@ body{
         font-size: calc(1.5vh + 1.5vw);
     }
     .facility-title{
-        font-size: calc(1.6vh + 1.6vw);
+        font-size: calc(1.7vh + 1.7vw);
     }
     .facility-description{
         font-size: calc(1.5vh + 1.5vw);
     }
     .prize_title{
-        font-size: calc(1.6vh + 1.6vw);
+        font-size: calc(1.7vh + 1.7vw);
     }
     .prize_date{
         font-size: calc(1.55vh + 1.55vw);
