@@ -279,13 +279,16 @@ p{
 .prize_image{
     width: 100%;
     height: auto;
+    max-height: 500px;
+
 }
 .prize_title{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 23px;
     margin: 0;
     padding: 0;
 }
+
 .prize_date{
     font-weight: 500;
     font-size: 21px;
