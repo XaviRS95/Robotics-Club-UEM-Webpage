@@ -1,23 +1,6 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-div {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin: 0;
-}
-
-.slidediv{
-    width: 100%;
-    height: auto;
-}
-
-.slidediv img{
-    width: 100%;
-    height: auto;
-    max-height: 500px;
-}
 
 /* Hide the images by default */
 .slideimagediv {

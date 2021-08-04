@@ -8,7 +8,7 @@ html{
 
 body{
     margin:0;
-    background: #fff2e6;
+    background-color: #ffffff;
     font-family: 'Lato', arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -87,6 +87,15 @@ p{
     align-items: center;
 }
 
+#scrollup_button{
+    position: fixed;
+    visibility: hidden;
+    z-index: 2;
+    right: 30px;
+    bottom: 30px;
+    height: 75px;
+    width: 75px;
+}
 
 /**/
 .introduction_div{
@@ -123,8 +132,7 @@ p{
     padding-top: 15px;
     padding-bottom: 35px;
     margin-bottom: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    transition: 0.1s;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     background-color: #fff;
     color: #424242;
 }
@@ -151,8 +159,19 @@ p{
     color: #424242;
 }
 
+.container_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container_wrapper:nth-child(even){
+    background-color: #f8f8f8;
+}
+
 .contenedor{
-    background-color: #fff;
     width: 1100px;
     height: auto;
     display: flex;
@@ -161,9 +180,8 @@ p{
     justify-content: center;
     padding: 15px;
     margin: 15px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    transition: 0.3s;
 }
+
 
 
 /*Project section*/
@@ -175,14 +193,14 @@ p{
 .card{
     display: inline-block;
     overflow: hidden;
+    border: 1px solid #e50000;
     border-radius: 12px;
     padding: 10px 20px 20px 20px;
     margin-bottom: 15px;
     background: #fff;
     /*-webkit-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);*/
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: 0.3s;
+
     width: auto;
 }
 
@@ -251,6 +269,12 @@ p{
     font-weight: 400;
 }
 
+.facility img{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
 
 /*Prizes section*/
 
@@ -273,15 +297,19 @@ p{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 25px;
+    border: 1px solid #e50000;
+    border-radius: 12px;
+    padding: 10px;
 }
 
 
 .prize_image{
     width: 100%;
     height: auto;
+    border-radius: 10px;
     max-height: 500px;
-
 }
+
 .prize_title{
     font-weight: 600;
     font-size: 23px;
@@ -563,6 +591,10 @@ p{
     #headerlogo{
         height: calc(3vh + 3vw);
         width: calc(10vh + 5vw);
+    }
+    #scrollup_button{
+        height: 60px;
+        width: 60px;
     }
     .headeroptions{
         top: calc(4vh + 4vw);

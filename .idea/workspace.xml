@@ -12,10 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/prize_images/asti2019.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/prize_images/asti_2019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/workshop-icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Empty-Spain-version2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -131,7 +127,15 @@
       <workItem from="1620137931423" duration="3392000" />
       <workItem from="1620227723810" duration="939000" />
       <workItem from="1620407581210" duration="7000" />
-      <workItem from="1621263892308" duration="2413000" />
+      <workItem from="1621263892308" duration="3074000" />
+      <workItem from="1621737458318" duration="26000" />
+      <workItem from="1622383208047" duration="1326000" />
+      <workItem from="1622412520560" duration="79000" />
+      <workItem from="1622422726456" duration="329000" />
+      <workItem from="1622485526717" duration="37000" />
+      <workItem from="1623239714458" duration="796000" />
+      <workItem from="1623256940080" duration="599000" />
+      <workItem from="1624399668710" duration="605000" />
     </task>
     <servers />
   </component>
@@ -159,10 +163,11 @@
     </state>
     <state x="2603" y="282" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1619372991446" />
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1619371622752" />
-    <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1620050257710">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="784" y="338" width="424" height="491" key="FileChooserDialogImpl" timestamp="1622412596415">
+      <screen x="67" y="47" width="1853" height="1053" />
     </state>
     <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl/67.47.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1620050257710" />
+    <state x="784" y="338" key="FileChooserDialogImpl/67.47.1853.1053/1920.0.1920.1080@67.47.1853.1053" timestamp="1622412596415" />
     <state x="3003" y="0" width="835" height="1080" key="dock-window-1" timestamp="1616983201593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
