@@ -14,9 +14,9 @@
 <body>
 <div class="header">
     <div class="headerimagediv"><img id ="headerlogo" src="assets/images/logocompleto.png"></div>
-    <input type="checkbox" class="toggler">
+    <input type="checkbox" class="toggler" id="toggler">
     <div class="hamburger"><div></div></div>
-    <ul class="headeroptions" id="nav-menu">
+    <ul class="headeroptions" id="nav-menu" onclick="closeMenu()">
         <a href="#whoweare-title"><li class="item">QUIÉNES SOMOS</li></a>
         <a href="#projects-title"><li class="item">PROYECTOS</li></a>
         <a href="#facilities-title"><li class="item">INSTALACIONES</li></a>
@@ -25,7 +25,6 @@
         <a href="#contact-title"><li class="item">CONTACTO</li></a>
     </ul>
     <div class="aux-flex"></div>
-    <img id="scrollup_button" src="assets/images/scrollupbutton.png" onclick="topFunction()">
 </div>
 
 <div class="introduction_div">
@@ -285,6 +284,5 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="assets/scripts/scrollupbutton.js"></script>
 <!--<div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
 </html>

@@ -82,9 +82,6 @@
     }
 }
 
-
-
-
     /* Show Menu */
 .toggler:checked ~ .headeroptions {
     display: flex;
