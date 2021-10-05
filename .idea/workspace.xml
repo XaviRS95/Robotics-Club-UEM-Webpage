@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b30f9f1-a0fa-4538-8198-d10c65e701a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/hamburger.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hamburger.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/scrollupbutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/scrollupbutton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Empty-Spain-version2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -141,6 +139,13 @@
       <workItem from="1624399668710" duration="605000" />
       <workItem from="1628085736145" duration="2869000" />
       <workItem from="1629227924031" duration="704000" />
+      <workItem from="1631113641075" duration="481000" />
+      <workItem from="1631212140908" duration="1591000" />
+      <workItem from="1631222709839" duration="4021000" />
+      <workItem from="1631270087011" duration="1207000" />
+      <workItem from="1631300416647" duration="620000" />
+      <workItem from="1631400422464" duration="41000" />
+      <workItem from="1631400477178" duration="13000" />
     </task>
     <servers />
   </component>
