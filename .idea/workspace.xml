@@ -40,18 +40,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Empty-Spain-version2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/roboticslab_images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/workshop-icons" />
+      <recent name="$PROJECT_DIR$/assets/images/roboticslab_images" />
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/prize_images" />
+      <recent name="$PROJECT_DIR$/assets/images/workshop-icons" />
       <recent name="$PROJECT_DIR$/assets/images/iot_lab" />
-      <recent name="$PROJECT_DIR$/assets/images/introduction-slider" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
@@ -146,6 +146,8 @@
       <workItem from="1631300416647" duration="620000" />
       <workItem from="1631400422464" duration="41000" />
       <workItem from="1631400477178" duration="13000" />
+      <workItem from="1633445524989" duration="3714000" />
+      <workItem from="1634139915465" duration="862000" />
     </task>
     <servers />
   </component>
