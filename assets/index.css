@@ -59,7 +59,7 @@ p{
     align-content: center;
     align-items: center;
 }
-#header_image{
+#headerlogo{
     height: calc(1.4vh + 1.4vw);
     width: calc(5vh + 3vw);
 }
@@ -459,7 +459,7 @@ contenedor:last-child{
     .header{
         height: calc(3vh + 3vw);
     }
-    #header_image{
+    #headerlogo{
         height: calc(2vh + 2vw);
         width: calc(8vh + 4vw);
     }
@@ -591,7 +591,7 @@ contenedor:last-child{
     .header{
         height: calc(4vh + 4vw);
     }
-    #header_image{
+    #headerlogo{
         height: calc(3vh + 3vw);
         width: calc(10vh + 5vw);
     }
